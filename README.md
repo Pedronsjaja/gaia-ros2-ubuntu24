@@ -2,9 +2,9 @@
 
 Guia de preparação dos computadores da equipe Gaia. Ao terminar, você terá **Ubuntu Desktop 24.04 LTS + ROS 2 Jazzy**, com comunicação entre nós funcionando.
 
-A instalação do simulador e o laboratório do OP3 ficam no [repositório do humanoide](https://github.com/Pedronsjaja/gaia-humanoid-robot/tree/main/docs/simulacao). Este repositório cuida do ambiente Linux/ROS 2 que será comum à equipe.
+A instalação do simulador e o laboratório do OP3 ficam no [repositório de simulação do humanoide](https://github.com/Pedronsjaja/gaia-humanoid-simulation/tree/main/docs/simulacao). Este repositório cuida do ambiente Linux/ROS 2 que será comum à equipe.
 
-**Primeira vez no GitHub?** Leia o [guia da equipe](https://github.com/Pedronsjaja/gaia-humanoid-robot/blob/main/docs/primeiros-passos-github.md). Clique nos guias abaixo para ler; use **Code → Download ZIP** para baixar tudo. Execute comandos somente no terminal indicado.
+**Primeira vez no GitHub?** Leia o [guia da equipe](https://github.com/Pedronsjaja/gaia-humanoid-simulation/blob/main/docs/primeiros-passos-github.md). Clique nos guias abaixo para ler; use **Code → Download ZIP** para baixar tudo. Execute comandos somente no terminal indicado.
 
 ## Caminho de aprendizagem
 
@@ -61,3 +61,14 @@ Este roteiro usa PCs Intel/AMD x86-64. Equipamentos ARM exigem imagem e virtuali
 - Cada pessoa registra sistema, hardware e resultado em [ficha de validação](docs/primeiros-passos.md).
 
 Fontes consultadas em **20/09/2026**. Os comandos foram revisados contra documentação oficial; a instalação de dual boot/VM deve ser validada em cada computador. Não foi particionado nem reinstalado o computador do mantenedor durante a preparação deste guia.
+
+## Repositórios da equipe Gaia
+
+| Preciso de… | Repositório |
+| --- | --- |
+| Servo LX-225, BusLinker, drivers e testes de bancada | [LX-225 / BusLinker](https://github.com/Pedronsjaja/gaia-lx225-buslinker) |
+| Gazebo, OP3, ROS 2 e autonomia | [Simulação](https://github.com/Pedronsjaja/gaia-humanoid-simulation) |
+| CAD, suportes, montagem e requisitos físicos da CBR | [Estrutura](https://github.com/Pedronsjaja/gaia-humanoid-structure) |
+| Instalar Ubuntu 24.04 e ROS 2 Jazzy | [Ambiente Linux / ROS 2](https://github.com/Pedronsjaja/gaia-ros2-ubuntu24) |
+
+Cada repositório tem seus próprios arquivos, Issues e histórico. Abra dúvidas na área correspondente; inclua links quando uma mudança depender de outra área.

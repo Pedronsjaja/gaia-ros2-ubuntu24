@@ -105,7 +105,7 @@ ros2 run demo_nodes_py listener
 
 Espere mensagens `Publishing` no primeiro e `I heard` no segundo. Encerre com Ctrl+C. Essa sequência é o [teste oficial das APIs C++/Python](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html).
 
-Agora avance para [primeiros passos](primeiros-passos.md) e para o [simulador do humanoide](https://github.com/Pedronsjaja/gaia-humanoid-robot/tree/main/docs/simulacao).
+Agora avance para [primeiros passos](primeiros-passos.md) e para o [simulador do humanoide](https://github.com/Pedronsjaja/gaia-humanoid-simulation/tree/main/docs/simulacao).
 
 ## Python do ROS e Python da bancada
 

@@ -41,7 +41,7 @@ Identifique os dois nós, o tópico e o campo de texto da mensagem. Depois feche
 
 `src/` guarda fontes, `build/` artefatos de compilação, `install/` pacotes prontos e `log/` registros. Após compilar, `source install/setup.bash` torna os pacotes visíveis naquele terminal. Não envie build/install/log ao Git.
 
-O [tutorial do OP3 no Gaia](https://github.com/Pedronsjaja/gaia-humanoid-robot/tree/main/docs/simulacao) cria o workspace real. Não é necessário inventar um pacote agora.
+O [tutorial do OP3 no Gaia](https://github.com/Pedronsjaja/gaia-humanoid-simulation/tree/main/docs/simulacao) cria o workspace real. Não é necessário inventar um pacote agora.
 
 ## Ficha de validação por computador
 
