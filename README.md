@@ -1,4 +1,38 @@
-# Gaia — Ubuntu 24.04 e ROS 2 Jazzy
+<div align="center">
+
+<h1>🐧 Gaia &#183; Ubuntu + ROS 2</h1>
+<p><strong>Um caminho guiado para preparar o ambiente de rob&#243;tica da equipe.</strong></p>
+<p><kbd>Ubuntu 24.04 LTS &#183; ROS 2 Jazzy</kbd></p>
+
+<p><a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/stargazers"><img alt="Estrelas no GitHub" src="https://img.shields.io/github/stars/Pedronsjaja/gaia-ros2-ubuntu24?style=flat-square&amp;color=147d68"/></a> <a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/commits/main"><img alt="Último commit" src="https://img.shields.io/github/last-commit/Pedronsjaja/gaia-ros2-ubuntu24?style=flat-square&amp;color=235789"/></a></p>
+<p><a href="#inicio-rapido">Comece aqui</a> · <a href="#guia-do-projeto">Documentação</a> · <a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/tree/main">Arquivos</a></p>
+
+</div>
+
+<a id="inicio-rapido"></a>
+## 🚀 Comece aqui
+
+**[Ver o roteiro de validação](docs/primeiros-passos.md)**
+
+| Escolha do ambiente | Instalação guiada | Validação |
+| --- | --- | --- |
+| Comparação entre dual boot e máquina virtual. | Ubuntu e ROS 2 em etapas separadas. | Talker, listener e primeiros conceitos de ROS. |
+
+### Caminho do projeto
+
+```mermaid
+flowchart LR
+  N0["Escolher ambiente"]
+  N1["Instalar Ubuntu"]
+  N0 --> N1
+  N2["Instalar ROS 2"]
+  N1 --> N2
+  N3["Validar comunicação"]
+  N2 --> N3
+```
+
+<a id="guia-do-projeto"></a>
+## 📖 Documentação
 
 Guia de preparação dos computadores da equipe Gaia. Ao terminar, você terá **Ubuntu Desktop 24.04 LTS + ROS 2 Jazzy**, com comunicação entre nós funcionando.
 
@@ -72,3 +106,4 @@ Fontes consultadas em **20/09/2026**. Os comandos foram revisados contra documen
 | Instalar Ubuntu 24.04 e ROS 2 Jazzy | [Ambiente Linux / ROS 2](https://github.com/Pedronsjaja/gaia-ros2-ubuntu24) |
 
 Cada repositório tem seus próprios arquivos, Issues e histórico. Abra dúvidas na área correspondente; inclua links quando uma mudança depender de outra área.
+
