@@ -111,3 +111,7 @@ Cada repositório tem seus próprios arquivos, Issues e histórico. Abra dúvida
 ## Engenharia e validacao
 
 [Estado tecnico, validacao e proximos passos](docs/engineering-status.md).
+
+## Aula de Python, ROS 2 e servos
+
+Leia [Da câmera aos servos — guia ilustrado da equipe Gaia](https://github.com/Pedronsjaja/gaia-humanoid-simulation/blob/2db129f822519ea28f9817e6f49a3da896ee8ce6/docs/programacao/da-camera-aos-servos.md) (revisão fixa). Depois de validar o ambiente, estude pacote, nó, processo, tópicos, publisher/subscriber e service/action client/server, acompanhando o fluxo de comandos e feedback dos servos. A tomada de decisão/autonomia permanece pendente. O material reúne diagramas, ilustração conceitual, exercícios e referências; não implementa controle físico.
