@@ -1,13 +1,12 @@
-<div align="center">
+# GAIA ROS 2 Development Environment
 
-<h1>🐧 Gaia &#183; Ubuntu + ROS 2</h1>
-<p><strong>Um caminho guiado para preparar o ambiente de rob&#243;tica da equipe.</strong></p>
-<p><kbd>Ubuntu 24.04 LTS &#183; ROS 2 Jazzy</kbd></p>
+Ubuntu 24.04 LTS and ROS 2 Jazzy setup documentation for the GAIA team.
 
-<p><a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/stargazers"><img alt="Estrelas no GitHub" src="https://img.shields.io/github/stars/Pedronsjaja/gaia-ros2-ubuntu24?style=flat-square&amp;color=147d68"/></a> <a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/commits/main"><img alt="Último commit" src="https://img.shields.io/github/last-commit/Pedronsjaja/gaia-ros2-ubuntu24?style=flat-square&amp;color=235789"/></a></p>
-<p><a href="#inicio-rapido">Comece aqui</a> · <a href="#guia-do-projeto">Documentação</a> · <a href="https://github.com/Pedronsjaja/gaia-ros2-ubuntu24/tree/main">Arquivos</a></p>
+**Status: documented development infrastructure.** Guides cover dual boot or virtual machines, ROS installation and talker/listener checks. Following the documentation requires validation on each target computer; no performance or real-time guarantee is implied.
 
-</div>
+**Portfolio role:** a common development baseline for robotics and future communication experiments. Simulation lives in the [GAIA simulation repository](https://github.com/Pedronsjaja/gaia-humanoid-simulation). DDS benchmarking and physical/virtual synchronization remain **Planned**.
+
+[First checks](docs/primeiros-passos.md) · [Reproducible environment record](docs/engineering-status.md)
 
 <a id="inicio-rapido"></a>
 ## 🚀 Comece aqui
@@ -34,7 +33,7 @@ flowchart LR
 <a id="guia-do-projeto"></a>
 ## 📖 Documentação
 
-Guia de preparação dos computadores da equipe Gaia. Ao terminar, você terá **Ubuntu Desktop 24.04 LTS + ROS 2 Jazzy**, com comunicação entre nós funcionando.
+Guia de preparação dos computadores da equipe Gaia. O objetivo é preparar **Ubuntu Desktop 24.04 LTS + ROS 2 Jazzy** e verificar a comunicação entre nós pelos critérios de aceite abaixo.
 
 A instalação do simulador e o laboratório do OP3 ficam no [repositório de simulação do humanoide](https://github.com/Pedronsjaja/gaia-humanoid-simulation/tree/main/docs/simulacao). Este repositório cuida do ambiente Linux/ROS 2 que será comum à equipe.
 
